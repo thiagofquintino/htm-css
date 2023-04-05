@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(110, 103, 103);
+            margin: 0px;
+        }  
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        } 
+        nav{
+            background-color: rgb(54, 52, 52);
+            padding: 10px;
+            box-shadow: 1px 1px 1px black;
+
+
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 60px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+        }
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(236, 228, 228);
+            
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#Bola{
+            height: 100px;
+            width: 100px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 50%;
+
+
+        }
+        div#Bola > img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+     <header>
+        <nav>
+            <h1>Meu site</h1>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            
+        </nav>
+     </header>   
+     <main>
+        <section id="assuntos">
+            <p>Esportes, Política e Religião.</p>
+
+        </section>
+        <section id="notícias">
+            <article>
+               
+                    <h2>Notícias sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident necessitatibus illum voluptates tenetur obcaecati sequi sapiente, dolore optio voluptatibus maiores consectetur perspiciatis laudantium vero quas similique rem! Laudantium, iusto architecto?</p>
+                    <aside>
+                        <p>Artigo escrito por José alves</p>
+                    </aside>
+            </article>
+
+        </section>
+    
+
+     </main>
+     <footer>
+        <p>Desenvolvido por Thiago Quintino</p>
+     </footer>
+     <div id="Bola">
+        <img src="139268411_3462270133890707_8948019552622793334_n.jpg" alt="Fotinha do ruim">
+     </div>
+</body>
+</html>
