@@ -35,11 +35,13 @@ section > h1{
     text-align: center;
     padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 section > h2, h3{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-indent: 30px;
+    text-align: center;
 }
 
 
@@ -66,11 +68,20 @@ section > ul{
     font-weight: bold;
     color: black;
     list-style-position: inside;
+    list-style: none;
+    padding: 10px;
 }
 
 
-section > a:hover{
-    text-decoration: underline;
+ul > li, a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black !important;
+    list-style-position: inside;
+}
+
+ a:hover{
+    text-decoration: underline !important;
     list-style-position: inside;
     
 }
@@ -84,6 +95,7 @@ aside{
 
 aside > ul{
     list-style-position: inside;
+    list-style: none;
 }
 
 
@@ -96,8 +108,8 @@ footer > p{
     margin: 0px;
 }
 
-footer > a {
-    color: white;
+.linkdev{
+    color: white !important;
     font-weight: bold;
     text-decoration: none;
 
