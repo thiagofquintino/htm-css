@@ -1,1 +1,1 @@
-egvasdf df hdh dhb hbnd 
+Deu ruim, pq ainda não sei usar php
